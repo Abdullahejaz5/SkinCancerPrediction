@@ -53,7 +53,7 @@ The dataset consists of labeled skin lesion images divided into two classes:
 - ReLU activation in hidden layers
 - Sigmoid activation in output layer
 - Binary Cross-Entropy loss function
-- Adam optimizer
+- SGD optimizer
 - Hyperparameters tuned using **Keras Tuner**
 - Best-performing model saved as `final_model.keras`
 
@@ -78,11 +78,4 @@ The Streamlit app allows users to:
    - **No Cancer Predicted (Benign)**
 
 ---
-
-## ▶️ How to Run the Project
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/skin-cancer-detection.git
-cd skin-cancer-detection
 
